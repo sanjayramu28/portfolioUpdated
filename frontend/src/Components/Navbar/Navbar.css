@@ -1,0 +1,27 @@
+.navbar{
+    position: sticky;
+    gap: 70px;
+    height: 100px;
+    top: 0;
+    z-index: 10;
+    /* background-color: black; */
+}
+
+html{
+    scroll-padding-top: 120px ;
+    /* scroll-margin-top: 200px !important; */
+}
+
+.navbar a{
+    height: 50px;
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+
+.navbar a:hover{
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+    transform: scale(1.1);
+    /* margin-bottom: 20px ; */
+}
